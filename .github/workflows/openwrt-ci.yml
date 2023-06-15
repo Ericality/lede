@@ -135,31 +135,42 @@ jobs:
           CONFIG_PACKAGE_htop=y
           CONFIG_PACKAGE_automount=y
           CONFIG_PACKAGE_openssh-sftp-server=y
+          CONFIG_PACKAGE_luci-app-samba4=y
+          CONFIG_PACKAGE_luci-app-mwan3=y
+          CONFIG_PACKAGE_luci-app-mwan3helper=y
           CONFIG_PACKAGE_luci-app-openvpn=y
           CONFIG_PACKAGE_luci-app-openvpn-server=y
           CONFIG_PACKAGE_luci-app-netdata=y
           CONFIG_PACKAGE_luci-app-v2ray-server=y
-          CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-adblock=y
-          CONFIG_PACKAGE_luci-app-aria2=y
+          CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-transmission=y
+          CONFIG_PACKAGE_luci-app-aria2=y
           CONFIG_PACKAGE_luci-app-qbittorrent=y
-          CONFIG_PACKAGE_luci-app-aliyundrive-webdav=y
-          CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y
-          CONFIG_PACKAGE_luci-app-dnsforwarder=y
-          CONFIG_PACKAGE_luci-app-e2guardian=y
+          CONFIG_PACKAGE_luci-app-ahcp=y
+          CONFIG_PACKAGE_luci-app-haproxy-tcp=y
+          CONFIG_PACKAGE_luci-app-hnet=y
+          CONFIG_PACKAGE_luci-app-nft-qos=y
+          CONFIG_PACKAGE_luci-app-nps=y
           CONFIG_PACKAGE_luci-app-pushbot=y
           CONFIG_PACKAGE_luci-app-qos=y
           CONFIG_PACKAGE_luci-app-simple-adblock=y
-          CONFIG_PACKAGE_luci-app-softethervpn=y
           CONFIG_PACKAGE_luci-app-sqm=y
           CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
+          CONFIG_PACKAGE_luci-app-watchcat=y
           CONFIG_PACKAGE_luci-app-openclash=y
-          CONFIG_PACKAGE_iperf=y
-          CONFIG_PACKAGE_iperf3=y
-          CONFIG_PACKAGE_openssh-client=y
           CONFIG_PACKAGE_openssh-server=y
+          CONFIG_PACKAGE_openssh-client=y
+          CONFIG_PACKAGE_openssh-client-utils=y
+          CONFIG_PACKAGE_openssh-keygen=y
+          CONFIG_PACKAGE_iperf3=y
+          CONFIG_PACKAGE_openssh-server-pam=y
+          CONFIG_PACKAGE_luci-app-cifsd=y
+          CONFIG_PACKAGE_luci-app-cifs-mount=y
+
+
+
           EOF
 
           #
