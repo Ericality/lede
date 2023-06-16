@@ -160,7 +160,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-wrtbwmon=y
           CONFIG_PACKAGE_luci-app-watchcat=y
           CONFIG_PACKAGE_luci-app-openclash=y
-          CONFIG_PACKAGE_openssh-server=y
           CONFIG_PACKAGE_openssh-client=y
           CONFIG_PACKAGE_openssh-client-utils=y
           CONFIG_PACKAGE_openssh-keygen=y
